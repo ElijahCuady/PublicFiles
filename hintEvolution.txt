@@ -1,0 +1,146 @@
+1st version
+
+Question =             string question = "Who was the 10th president of the United States?";
+
+Instruction =             var instructions = $"You are a machine made to create hints. " +
+                $"I will supply you with a question and I want you to create a hint baesd on the question to make the question easier to answer. " +
+                $"I want the hint to be in the form of a text description. Here is the question: {question}";
+Result = Hint: This president, serving in the mid-19th century, was known as the "Accidental President" due to his unexpected rise to 
+power after the sudden death of his predecessor.
+
+ver 2 (25 tokens)
+Question = Who was the 10th president of the United States?
+Instruction = Based on the question '{question}', create a detailed text description of an image that visually represents the answer. 
+Focus on key elements, symbols, and colors that are relevant and can be illustrated
+
+Result = The image is a portrait of a distinguished-looking man in his late fifties, standing tall with his head held high.
+
+
+ver 2 (50 tokens)
+Question = 
+Instruction = 
+Result = The image depicts a grand portrait of a distinguished man, representing the 10th President of the United States, John Tyler. 
+The portrait captures Tyler's presence with impeccable details, showcasing his charming demeanor and refined attire. 
+Standing tall with an air of authority
+
+ver 2, run 1
+Question = 
+Instruction = 
+Result = The image is a vibrant and patriotic portrait that represents the 10th president of the United States, John Tyler. Against a background of deep crimson, the central focus of the painting is a dignified and confident President Tyler, portrayed with remarkable realism.
+president-231117_144520
+
+
+ver 2
+Question = Which male Avenger of the original Avengers contains the word 'Captain' in their name?
+Instruction = Based on the question '{question}', create a detailed text description of an 
+image that visually represents the answer. Focus on key elements, symbols, and colors 
+that are relevant and can be illustrated
+
+Result =
+ The image contains a rectangular frame with a vibrant background of deep blue, 
+representing the night sky. In the center of the frame, there is a bold and iconic
+ shield with a white star in the middle, symbolizing Captain America. The shield is reminiscent
+
+avenger-231117_144906
+
+ver 2
+Question = 
+Instruction = 
+Result = 
+
+
+ver 2
+Question = What is access control?
+Instruction = 
+Result = Description of the image:
+The image depicts a secure entrance gate to a restricted area. The gate is tall and made of sturdy metal bars, painted in a deep shade of blue, which corresponds to a sense of reliability and trustworthiness. The top
+
+
+ver 2
+Question = "Which movie does Will Smith star alongside Tommy Lee Jones?";
+Instruction = 
+Result = The image depicts Will Smith and Tommy Lee Jones standing side by side, 
+radiating an aura of confidence and determination. Both actors are wearing identical 
+black suits, emphasizing their status as agents of a secret organization. Their serious 
+expressions and unwavering gaze indicate
+System.Net.Http.HttpRequestException
+
+  HResult=0x80131500
+  Message={
+  "error": {
+    "code": "content_policy_violation",
+    "message": "Your request was rejected as a result of our safety system.
+ Your prompt may contain text that is not allowed by our safety system.",
+    "param": null,
+    "type": "invalid_request_error"
+  }
+}
+
+  Source=Rystem.OpenAi.Api
+  StackTrace:
+   at Rystem.OpenAi.HttpClientExtensions.<PrivatedExecuteAsync>d__1.MoveNext()
+   at Rystem.OpenAi.HttpClientExtensions.<ExecuteWithResponseAsync>d__8`1.MoveNext()
+   at Rystem.OpenAi.Image.ImageRequestBuilder`1.<DownloadAsync>d__7.MoveNext()
+   at Rystem.OpenAi.Image.ImageRequestBuilder`1.<DownloadAsync>d__7.System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult(Int16 token)
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at ApiTesting.Text.Program.<CreateHintImageV2>d__4.MoveNext() in C:\Users\elija\source\repos\LearningC\ApiTesting\Program.cs:line 116
+   at ApiTesting.Text.Program.<CreateHintImageV2>d__4.MoveNext() in C:\Users\elija\source\repos\LearningC\ApiTesting\Program.cs:line 116
+   at ApiTesting.Text.Program.<Main>d__0.MoveNext() in C:\Users\elija\source\repos\LearningC\ApiTesting\Program.cs:line 23
+
+ver 2
+Question = "Which movie features Leonardo DiCaprio and Kate Winslet in lead roles?";
+Instruction = 
+Result = The image depicts a captivating movie poster showcasing the lead roles of 
+Leonardo DiCaprio and Kate Winslet. Against a dark backdrop, the poster captures 
+the essence of an epic love story. Centered at the forefront, Leonardo DiCaprio 
+is portrayed as
+
+System.Net.Http.HttpRequestException
+  HResult=0x80131500
+  Message={
+  "error": {
+    "code": "content_policy_violation",
+    "message": "Your request was rejected as a result of our safety system. 
+Your prompt may contain text that is not allowed by our safety system.",
+    "param": null,
+    "type": "invalid_request_error"
+  }
+}
+
+  Source=Rystem.OpenAi.Api
+  StackTrace:
+   at Rystem.OpenAi.HttpClientExtensions.<PrivatedExecuteAsync>d__1.MoveNext()
+   at Rystem.OpenAi.HttpClientExtensions.<ExecuteWithResponseAsync>d__8`1.MoveNext()
+   at Rystem.OpenAi.Image.ImageRequestBuilder`1.<DownloadAsync>d__7.MoveNext()
+   at Rystem.OpenAi.Image.ImageRequestBuilder`1.<DownloadAsync>d__7.System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult(Int16 token)
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at ApiTesting.Text.Program.<CreateHintImageV2>d__4.MoveNext() in C:\Users\elija\source\repos\LearningC\ApiTesting\Program.cs:line 116
+   at ApiTesting.Text.Program.<CreateHintImageV2>d__4.MoveNext() in C:\Users\elija\source\repos\LearningC\ApiTesting\Program.cs:line 116
+   at ApiTesting.Text.Program.<Main>d__0.MoveNext() in C:\Users\elija\source\repos\LearningC\ApiTesting\Program.cs:line 23
+
+
+ver 2
+Question = "Which character is best friends with Tinker Bell?";
+Instruction = 
+Result = In the center of the image, we see a vibrant and enchanting forest illuminated by the golden rays of the sun. The tall, lush trees are adorned with delicate leaves and hanging vines, creating a whimsical and magical atmosphere. The ground is covered
+fictional story-231118_222018
+
+ver 2
+Question = 
+Instruction = 
+Result = 
+
+ver 2
+Question = 
+Instruction = 
+Result = 
+
+ver 2
+Question = 
+Instruction = 
+Result = 
+
+ver3 
+Try to generate a hint which brings ascosiation regarding the statement or the answer 
+to the question if it not a tangible thing. 
+
